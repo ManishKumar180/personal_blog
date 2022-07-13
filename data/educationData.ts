@@ -1,15 +1,15 @@
 const educationData = [
   {
-    title: 'Data Science Engineering',
-    company: 'NMIMS University',
-    location: 'Mumbai, India',
-    range: 'Jul 2017 - Apr 2021',
-    url: 'https://www.nmims.edu/',
-    text1: 'Graduated with CGPA of 3.2',
+    title: 'Computer Science Student',
+    company: 'AKTU University',
+    location: 'Kanpur , India',
+    range: 'Jul 2019 - Apr 2023',
+    url: 'https://aktu.ac.in/',
+    text1: 'Currently in Btech 4th year',
     text2:
-      'Spent 4 years learning and mastering Natural Language Processing (NLP), Machine Learning, Statistics and Programming.',
+      'Learnt core Computer Science Subjects like DBMS, Computer Networking',
     text3:
-      'Developed functions for automatically extracting important elements from reports using BioBERT and Regex.',
+      'Made Library Management system using JDBC , Java swing , MySQL',
   },
 ]
 
