@@ -38,14 +38,14 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               </span>
             </span>
             <h1 className="pt-2 text-4xl font-bold leading-9 tracking-tight text-background-color dark:text-gray-100 sm:text-5xl sm:leading-10 md:text-6xl md:leading-snug">
-              Reuben
+              Manish 
               <span className="relative inset-y-8 ml-2 inline-block -rotate-12 font-arrow text-primary-500 sm:inset-y-14">
                 ^
               </span>
-              Rapose
+              Kumar
             </h1>
             <p className="text-black dark:text-white sm:pr-6 sm:text-lg sm:leading-8">
-              Welcome to my Digital Garden – I am a <span className="">Data Scientist</span> by
+              Welcome to my Blog – I am a <span className="">Frone End Developer</span> by
               training and <span className="">Full-Stack Developer</span> by passion who loves
               building for the web & mobile. Also sometimes for the toaster.{' '}
               {/* In my
