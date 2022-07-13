@@ -7,8 +7,7 @@ const experienceData = [
     url: '',
     text1:
       'Made  optimized websites using  good practices and methodologies.',
-    text2: `Image result for Prutor ai
-Prutor is an online coding platform that provides teaches coding on scale –from basics to advanced.`,
+    text2: ``,
   }
  
 ]
