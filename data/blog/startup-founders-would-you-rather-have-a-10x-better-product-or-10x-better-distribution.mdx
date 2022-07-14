@@ -56,19 +56,19 @@ Important steps ->
 
 Restart The Terminal
 
-Update the system using -> <>sudo apt-get update</>
+Update the system using -> sudo apt-get update
 
-Upgrade the system Using command -> <>sudo apt-get upgrade</>
+Upgrade the system Using command -> sudo apt-get upgrade
 
 Enter your Password ✔️
 
-Install git using -> <>sudo apt-get install git</>
+Install git using -> sudo apt-get install git
 
 we need nodejs  npm in order to install required packages
 
   Enable the NodeSource repository by running the following curl command as a user with sudo privileges :
 
-  <>curl -sL [](https://deb.nodesource.com/setup_12.x) | sudo -E bash -</>
+  curl -sL [](https://deb.nodesource.com/setup_12.x) | sudo -E bash -
 
 The command will add the NodeSource signing key to your system, create an apt sources repository file, install all necessary packages and refresh the apt cache.
 
@@ -76,16 +76,16 @@ If you need to install another version, for example 14.x, just change setup_12.x
 
 Once the NodeSource repository is enabled, install Node.js and npm by typing:
 
-  <>sudo apt install nodejs</>
+  sudo apt install nodejs
 
 The nodejs package contains both the node and npm binaries.
 
 Verify that the Node.js and npm were successfully installed by printing their versions:
 
-  <>node --version</> or <> node -v</>
+  node --version or  node -v
 
 v12.16.
-  <>npm --version</>
+  npm --version
 
 6.14.4
 
@@ -95,17 +95,16 @@ v12.16.
 
  [linux](https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/)
 
-  Install neo vim using <> sudo apt-get install neovim</>
- change the File path to home  < > cd -- </>
- List out the hidden files using <> ls -la </>
- See if there is any .config  if yes  then use command <> cd .config/ </>if not  
- then create  one <> mkdir .config</>
- <> cd .config </> <>
- Make a directory for our neovim <>
- <>mkdir nvim</> <>
- <> cd nvim/</>
+  Install neo vim using  sudo apt-get install neovim
+ List out the hidden files using  ls -la
+ See if there is any .config  if yes  then use command  cd .config/ if not  
+ then create  one  mkdir .config
+  cd .config  
+ Make a directory for our neovim
+ mkdir nvim
+  cd nvim/
 
- <> nvim init.vim</>
+  nvim init.vim
  -this will be file for our configs
 
  !!Watch the above given Tutorial for vim before editing the vim config
