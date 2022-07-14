@@ -10,70 +10,233 @@ readTime: '4 minute read'
 ---
 
 ![neovim](https://miro.medium.com/max/1400/0*C_Y9E8En1BMKCVlz.png)
+Vim is a text editor that's more powerful than average text editors and be configured to do complex tasks with ease 
+It can do anything from editing small files to programming software. 
+It can increase your Productivity 😄
+<div>
+<a href="https://imgflip.com/i/5u1uh9"><img src="https://i.imgflip.com/5u1uh9.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator"></a></div>
+<br>
 
-As a startup founder, one question I get asked frequently is: should we focus our energy on building product or on building our distribution channels?
+All steps you need to install Neovim on your Linux and Windows Operating Systems
 
-Most of the startup world would tell you to focus on both.
+For windows Users:
 
-I strongly disagree with this. It’s unlikely you will be able to nail your product strategy & your distribution strategy at the same time — especially if you’re a first time founder.
+First You have to install wsl (windows subsystem for linux) inorder to run neovim 
 
-To build a 10x better product than your competitors, you would need a Steve Wozniak.
+Proper Guide to install wsl  : 
+-> first Turn on the  wsl as shown in the image below
 
-On the other hand, to build a 10x better distribution you just need a person who is ready to hustle.
+![wsl](https://user-images.githubusercontent.com/86479387/141649129-95885ed6-e9bd-46e2-b05f-f140d32b6086.png)
 
-As founders, we’ve all been guilty of focusing on the product with an “all or nothing” attitude.
+Installing Linux distros using Microsoft Store
+To install a distribution of Linux on Windows 10, use these steps:
 
-The problem with this is that the “build it and customers will follow” argument only works in cases when the product itself is orders of magnitudes better than existing competitors.
+Open Microsoft Store.
+Search for the Linux distribution that you want to install.
 
-If it’s not at least 10 times better than your competitors, then you’re essentially competing with them on marketing, instead of features or quality of your product.
+Some of the distros available include:
 
-Moreover, for a first time founder, nailing the product is helluva lot harder than nailing the distribution.
+Ubuntu.
+OpenSuse Leap 15.
+Kali Linux.
+Debian.
+Alpine WSL.
+Suse Linux Enterprise 12.
+Select the distro of Linux to install on your device.
 
-When making a decision on which route to go, it’s important to be honest with yourself and leverage the skillset you (and your team) actually have, not the one you wish you had.
 
-If you aren’t confident about your ability to develop a 10x better product than your competitors then you should go the distribution route.
+![wslStore](https://user-images.githubusercontent.com/86479387/141649593-279ffe94-48ad-48ad-80e6-9af549d326e5.png)
 
-The beauty of this route is that one does not need any specialised skills to pull it off. Anyone can do it, all you need is to commit to out-caring your competition when it comes to customers or quality of your product.
+-Click the Launch button.
+-Create a username for the Linux distro and press Enter.
+-Specify a password for the distro and press Enter.
 
-My bias towards distribution is mainly because I think distribution is an inherently better lever to pull on.
 
-Admittedly, it’s probably an inferior lever in the long run. But it’s just a bit easier to pull in the beginning when you’re starting out in order to get the flywheel spinning.
+![ubuntu](https://user-images.githubusercontent.com/86479387/141649882-119d7de8-a884-43e1-a308-998adba28cf0.png)
 
-Here’s my formula to approach the distribution route:
 
-1.  Create an okay-to-solid product
-2.  Spend money on marketing & setting up strong distribution channels for organic reach (through SEO, Paid Shout-Outs by Influencers, Advertising etc.)
-3.  Keep improving the product while you hope to catch a lucky break through your distribution strategy.
+Repeat the password and press Enter to confirm.
+After you complete the steps, you can start using the distro as any other flavor of Linux (without the graphical user interface, of course).
+<br>
+Important steps -> 
+<br>
+Restart The Terminal 
 
-To follow the distribution route does not mean one must completely ignore building a good product in the first place.
 
-Building a good product is a necessity, but it is insufficient to achieve success through it — especially without great distribution.
+<br>
+Update the system using -> <code>sudo apt-get update</code> 
+<br>
+Upgrade the system Using command -> <code>sudo apt-get upgrade</code>
+<br>
+Enter your Password ✔️
+<br>
+Install git using -> <code>sudo apt-get install git</code>
 
-More often than not, the difference between commercial success and commercial failure is the distribution.
+<p > <br>we need nodejs  npm in order to install required packages 
+ <br> 
+  Enable the NodeSource repository by running the following curl command as a user with sudo privileges :
+<br>
+  <code>curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -</code>
+<br>
+The command will add the NodeSource signing key to your system, create an apt sources repository file, install all necessary packages and refresh the apt cache.
 
-In the startup world, the odds are so stacked against us all the time that if one can continually make decisions that moves the odds slightly more in their favour, they give themselves the best chance of catching a few lucky breaks.
+If you need to install another version, for example 14.x, just change setup_12.x with setup_14.x
 
-Take [GoDaddy](http://www.godaddy.com) for example, nearly every person on the Internet has heard of GoDaddy and a majority of sites are registered with the company. The power of this brand came from its extensive advertising.
+Once the NodeSource repository is enabled, install Node.js and npm by typing:
 
-GoDaddy didn’t see much success early-on when they were advertising their brand on the internet to web developers due to extremely high competition in the web-domain and hosting space.
+  <code>sudo apt install nodejs</code>
+<br>
+The nodejs package contains both the node and npm binaries.
 
-So, at a time when many people were still unfamiliar with the Internet, GoDaddy targeted their advertising towards regular, every day people both online and offline.
+Verify that the Node.js and npm were successfully installed by printing their versions:
 
-This was a risky move, at the time, but actually showed incredible foresight and as a result they are a $13 Billion company today.
+  <code>node --version</code> or <code> node -v</code>
 
-In essence, during the first go-around, GoDaddy had a great product but not a great distribution strategy.
+v12.16.
+  <code>npm --version</code>
 
-When they got a second bite at the apple, they succeeded because they had figured out how to play the game.
+6.14.4
 
-Same product. Different distribution strategy. Wildly different results.
+  
+  <br></p>
+   <h4> Must watch If you are new to vim </h4>
+ <br>
+ https://youtu.be/XguBRi4TDNc
+ <br>
+ <br>
+ https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/
+ <br>
+ 
+  <br> 
+  
+  <p> Install neo vim using <code> sudo apt-get install neovim</code>
+ <br> change the File path to home  <code > cd -- </code>
+ <br> List out the hidden files using <code> ls -la </code>
+ See if there is any .config  <br>if yes  then use command <code> cd .config/ </code></br>  <br>if not  
+ then create  one <code> mkdir .config</code> <br>
+ <code> cd .config </code> <br>
+ Make a directory for our neovim <br>
+ <code>mkdir nvim</code> <br>
+ <code> cd nvim/</code>
+ <br>
+ <code> nvim init.vim</code>
+ -this will be file for our configs 
+ 
+ !!Watch the above given Tutorial for vim before editing the vim config <br>
+ that will save your lot of time 😄
+ 
+ <div> <p> You need a plugin Manager to Install plugins on neovim/vim
+ here we are going to use  vim-plug 
+ 
+ https://github.com/junegunn/vim-plug 
+ 
+ choose this ⬇️<br>
+ ![2021-11-13_22-40](https://user-images.githubusercontent.com/86479387/141652714-3a2b7816-e447-473a-9d43-dbc6e5164af5.png)
+<br>
+ First Install curl using 
+ <br><code> sudo apt install curl</code>
+ 
+ 
+ command -
+ <br>
+ 
+ 
+ <code> sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'</code>
+ <br>
+ pase this command on your terminal 
+ <br>
+ 
+ Example -> 
+<br> 
+ ![2021-11-13_22-45](https://user-images.githubusercontent.com/86479387/141652887-e2463098-5af4-4927-81eb-65c32796dfa9.png)
+<br>
 
-To become a company that can last for decades, you really need both great product and great distribution.
+ copy the following text in your init.vim file 
+ <br> 
+ ![2021-11-13_22-54](https://user-images.githubusercontent.com/86479387/141653217-66a327ba-28ff-4af2-becc-53b68851c6c5.png)
+ 
+ and save the file <br>
+ 
+ Installing vim-airline
+ add the below text in init.vim
+ <br>
+ ![2021-11-13_23-00](https://user-images.githubusercontent.com/86479387/141653378-c9e95b20-90b0-4c74-869d-8287e4462596.png)
+ 
+ or simply copy these from my init.vim file 😄😄<br>
+ 
+ 
+ 
 
-The point of this blog post isn’t to say, you should only focus on one lever for eternity. That would be silly. **The point is make you think hard about which lever to pull on first.**
+ 
+ ![2021-11-13_23-04](https://user-images.githubusercontent.com/86479387/141653470-991cee54-5a99-4c01-8e5b-6f33626e6437.png)
+ 
+ <br> 
+ ![2021-11-13_23-37](https://user-images.githubusercontent.com/86479387/141654541-04966145-0b03-42ff-819c-3f4e9284b5cc.png)
+<br>
+ 
+ To Install all Plugins 
+ copy this 
+ <br>
+ ![2021-11-13_23-07](https://user-images.githubusercontent.com/86479387/141653675-2cc8e038-0adb-492d-94a3-6c278e2c46a1.png)
+<br>
+ 
+ you might get some errors while opening the neovim 
+ simply presss Enter or quit the neovim and remove the following Auto completiong Line
+  from the init.vim and save <br>
 
-If you’re a first-time founder and you don’t initially have the resources to bring a Steve Wozniak into your team, you’ll likely increase your odds of success by focusing more of your early energy on distribution.
+ ![2021-11-13_23-17](https://user-images.githubusercontent.com/86479387/141653861-7e01f87d-7032-4cc2-95c2-9736c4a9fc0e.png)
+ and restart the nvim to see the changes 
+ <br>
+ Install nerd fonts 
+ https://www.nerdfonts.com/font-downloads <br>
+ Dowload any zip and extract the fonts and install it 
+ <br>
+ 
+ To change fonts on windows ->
+ 
+ <br>
+ 
+ ![2021-11-13_23-24](https://user-images.githubusercontent.com/86479387/141654087-aa7cbfc8-92ef-4094-a51f-752639052ebb.png)
+ 
 
-Once you’ve achieved product market fit and you have figured out enough of the distribution side to see real adoption, find your Steve Wozniak, inspire him or her to join your team, and go out to build your 10x-better-product that changes the world.
+
+
+ 
+ 
+ 
+ ![2021-11-13_23-31](https://user-images.githubusercontent.com/86479387/141654325-0fd443b1-e401-4954-b274-5a42950073f2.png)
+
+
+
+<br>
+ 
+ so that's it You can also install other plugins as well and enhance your vim functionality 😄
+ 
+ 
+ 
+<br>
+ 
+ <br>
+
+ <br>
+
+ <br>
+ 
+ 
+ <br>
+ 
+ 
+ 
+ <br>
+ 
+ <br> 
+ 
+ 
+
+</p>
+
+
 
 ---
 
@@ -81,4 +244,4 @@ Thanks for reading!
 
 If you liked this article, feel free to checkout [Seeking Within](https://seekingwithin.substack.com/) — a weekly newsletter covering a wide range of topics exploring the belief that **Most Answers We Seek Lie Within Us.**
 
-Want to connect with me? Shoot me a message via [Email](http://mailto:reuben3699@gmail.com/), [LinkedIn](https://linkedin.com.in/reubence), or [Twitter](https://twitter.com/reuben_rapose)!
+Want to connect with me? Shoot me a message via [Email](http://mailto:manishkumar97430@gmail.com/), [LinkedIn](https://linkedin.com.in/), or [Twitter](https://twitter.com/)!
