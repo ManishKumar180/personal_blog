@@ -1,24 +1,24 @@
 const projectsData = [
   {
-    title: 'Branding',
+    title: 'Sorting Visualizer',
     description:
-      'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
-    imgSrc: '/static/images/projects/Branding.png',
-    href: 'https://github.com/reubence/awwards-website-recreation',
+      'This project is fully responsive made to visualize sorting Algorithms',
+    imgSrc: '/static/images/projects/sorting.png',
+    href: 'https://github.com/ManishKumar180/Dsa_Sorting_Visualizer',
   },
   {
-    title: 'Fin-Tech',
+    title: 'Covid-19 Tracker',
     description:
-      'An enterprise resource planning software to manage daily processes including Accounting, Invoice Generation & Tax Filing. It was built to be fully responsive using Next.js & Supabase and aims to automate various processes and enhance productivity of employeess.',
-    imgSrc: '/static/images/projects/FinTech.png',
-    href: 'https://github.com/reubence/ERP',
+      'An web app designed to show live covid cases all around the world',
+    imgSrc: '/static/images/projects/covid.png',
+    href: 'https://github.com/ManishKumar180/cov19_tracker',
   },
   {
-    title: 'Blockchain',
+    title: 'Pokemon Dex ',
     description:
-      'A single page website that mints NFTs for the user on the largest marketplace (OpenSea) and is fully responsive. Built using Next.js, Framer-Motion and Supabase.',
-    imgSrc: '/static/images/projects/Blockchain.png',
-    href: 'https://github.com/reubence/nft-minting-live',
+      'A live pokemon dex viewer which uses real apis to fetch data ',
+    imgSrc: '/static/images/projects/poke.png',
+    href: 'https://github.com/ManishKumar180/pokemon_deX',
   },
 ]
 
