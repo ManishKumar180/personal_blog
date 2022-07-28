@@ -45,7 +45,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               Kumar
             </h1>
             <p className="text-black dark:text-white sm:pr-6 sm:text-lg sm:leading-8">
-              Welcome to my Blog – I am a <span className="">Frone End Developer</span> by
+              Welcome to my Blog – I am a <span className="">Frond End Developer</span> by
               training and <span className="">Full-Stack Developer</span> by passion who loves
               building for the web & mobile. Also sometimes for the toaster.{' '}
               {/* In my
